@@ -5,43 +5,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML</title>
+  <title>Learn HTML</title>
+  <!--HTML code on line 10, used to link css files to html web pages.-->
   <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 
 <body>
-  <H1>Hyper Text Markup Language (HTML)</H1>
-  <H2 id="html_section1">Structure</H2>
+  <h1>HyperText Markup Language (HTML)</h1>
+  <ul>
+    <li><a href="HTML.html">HTML</a></li>
+    <li><a href="CSS.html">CSS</a></li>
+    <li><a href="JavaScript.html">JAVASCRIPT</a></li>
+  </ul>
+  <!--HTML structure: elements section-->
+  <a href="#html_structure_section">Structure</a>
+  <a href="#html_text_section">Text</a>
+  <h2 id="html_structure_section">Structure</h2>
   <h3>Elements</h3>
   <p>HTML uses elements to describe the structure of web pages. HTML code is made up of characters that live inside
     angled brackets, these are called HTML elements. For example,
-    these are the HTML elements (&lt;p&gt; &lt;/p&gt;) that are used to create a paragraph on a web page. HTML elements
+    these are the HTML elements <b>(&lt;p&gt; &lt;/p&gt;)</b> that are used to create a paragraph on a web page. HTML
+    elements
     are usually made up of two tags. An opening tag and a closing tag. The closing tag has a forward slash in it. For
-    example, this is the opening tag (&lt;p&gt;) and closing tag (&lt;/p&gt;) that is used to create a paragraph on web
+    example, this is the opening tag <b>(&lt;p&gt;)</b> and closing tag <b>(&lt;/p&gt;)</b> that is used to create a
+    paragraph
+    on a web
     page. Each HTML element tells the web browser something about the information that sits between its opening and
     closing tags.The opening and closing tags act like containers for information. Also, the character between the
     angled
     brackets indicates the tag's purpose. For example, the character p stands for paragraph which indicates it is used
     to create paragraphs.</p>
-  <p>The opening &lt;html&gt; tag indicates that anything between it and the &lt;/html&gt; closing tag is all HTML code.
+  <p>The opening <b>&lt;html&gt;</b> tag indicates that anything between it and the <b>&lt;/html&gt;</b> closing tag
+    is
+    all
+    HTML code.
   </p>
-  <p>The opening &lt;body&gt; tag indicates that anything between it and the closing &lt;/body&gt; tag is information
+  <p>The opening <b>&lt;body&gt;</b> tag indicates that anything between it and the closing <b>&lt;/body&gt;</b> tag
+    is
+    information
     that will be displayed inside the main web browser. For example, images, text, search bar, etc.
   </p>
+  <p>The opening <b>&lt;head&gt;</b> tag indicates that anything between it and the closing <b>&lt;/head&gt;</b> tag
+    is
+    information about the web page. Rather than information that is shown inside the main web browser window. You will
+    usually find the <b>&lt;title&gt;</b> element inside the <b>&lt;head&gt;</b>.</p>
+  <p>The opening <b>&lt;title&gt;</b> tag indicates that anything between it and the closing <b>&lt;/title&gt;</b> tag
+    is
+    information that that is displayed on the top of the web browser, above where you type the URL of a website or web
+    page that you want to vist, basically the web browser tabs.</p>
+
+
+  <!--HTML structure: attributes section-->
   <h3>Attributes</h3>
-  <p>Attributes provide extra information about the contents of an element. They appear on the opening tag of a element
-    and are made up of two parts. A attribute name and a attribute value, separated by an equals sign. For example, this
-    is a p (paragraph) element which contains attributes, &lt;p lang="en-us"&gt;Paragraph in US english&lt;/p&gt;. </p>
-  <p>The attribute name or in the case of the p element example,'lang', indicates what kind of additional information
-    you're supplying about the element's content. Also HTML5 allows you to use uppercase attribute names but this is not
-    recommended. Therefore, attribute names should always be written in lowercases.</p>
-  <a href="#html_section1">HTML structure</a>
-  <h2>Text</h2>
+  <p>Attributes provide extra information about the contents of an element. They appear on the opening tag of a
+    element
+    and are made up of two parts. A attribute name and a attribute value which are separated by an equals sign. For
+    example, this
+    is a p (paragraph) element, <b>&lt;p lang="en-us"&gt;Paragraph in US
+      english&lt;/p&gt;</b>, which contains attributes. Different attributes can have different values. The
+    attribute name or in the case of the p element example, <b>lang</b>, indicates what kind of additional information
+    you're supplying about the element's content. Also, HTML5 allows you to use uppercase attribute names but this is
+    not
+    recommended. Therefore, all attribute names should always be written in lowercases. The
+    attribute value or in the case of the p element example, <b>"en-us"</b>, is the information or setting for the
+    attribute. It should always be placed inside double quotemarks. HTML5 allows quotemarks to be removed from
+    attribute
+    value. However, this is not recommended. Using the previous example, the attribute name <b>lang</b>, is used to
+    indicate the language used in the p element.
+    While, the attribute value <b>"en-us"</b>, specifies that the p element language being used is US english.</p>
 
 
 
-
-  <a href="#html_section1">HTML structure</a>
+  <h2 id="html_text_section">Text</h2>
+  <a href="#html_structure_section">Structure</a>
+  <a href="#html_text_section">Text</a>
 </body>
 
 </html>
